@@ -1,0 +1,138 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #ddd;
+    color: #111;
+}
+
+#frmContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btnSearch{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #530606;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    cursor: pointer
+}
+
+    #btnSearch:hover {
+        color: #530606;
+        background-color: #fff;
+    }
+
+#lblResult {
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+#grdTable{
+
+}
+
+.mydatagrid {
+    width: 80%;
+    border: solid 2px black;
+    min-width: 80%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.header {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+    border: none 0px transparent;
+}
+
+    .rows:hover {
+        background-color: #ff8000;
+        font-family: Arial;
+        color: #fff;
+        text-align: left;
+    }
+
+.selectedrow {
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+}
+
+.mydatagrid th {
+    padding: 5px;
+}
+
+#lblCtgr, #txtCtgr {
+    font-size: 20px;
+    color: #530606;
+}
+
+#txtCtgr{
+    border: 2px solid #0c9821;
+    outline: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #530606;
+}
